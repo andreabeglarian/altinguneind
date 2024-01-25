@@ -1,0 +1,321 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+ul li a:hover {
+    color: aliceblue;
+    background-color: darkslateblue;
+}
+
+body {
+    background-color: rgb(255, 240, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5em;
+    font-weight: 800;
+    border-style: solid;
+    border-radius: 30em;
+    border-color: thistle;
+    background-color: thistle;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1em;
+    text-align: center;
+    margin: 1em;
+    font-weight: 800;
+}
+
+p {
+    width: 100%;
+    line-height: 1.5em;
+}
+
+.capitol p {
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+footer li {
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    margin: 0.625em;
+    list-style: disc;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navigatie {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+    font-size: 1.5em;
+    border-style: solid;
+    border-radius: 30em;
+    padding: 0.75em;
+    border-color: transparent;
+    background-color: thistle;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5em;
+    border-color: transparent;
+    width: 60em;
+}
+
+footer {
+    display: block;
+    background-color: thistle;
+    padding: 2em;
+    margin-top: 2em;
+    border-style: solid;
+    border-color: thistle;
+    position: sticky;
+    height: min-content;
+}
+
+footer .navigatie {
+    border: none;
+    border-top: 0.125em solid;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.rondje img {
+    display: flex;
+    width: 12%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    max-width: 50%;
+    height: auto;
+    border-style: solid;
+    border-radius: 10em;
+}
+
+.scroll-to-top {
+    margin-left: 40.5em;
+    margin-bottom: 1em;
+}
+
+.scroll-to-top:hover {
+    border-style: solid;
+    margin-right: 37em;
+    background-color: darkslateblue;
+    color: darkslateblue;
+    border-radius: 10em;
+}
+
+.allesocials {
+    margin-left: 7em;
+    width: 40em;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.socials img {
+    width: 10%;
+}
+
+.socials2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+.socials2 img {
+    width: 10%;
+}
+
+.socials3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.socials3 img {
+    width: 6%;
+    margin: 2%;
+    background-color: white;
+    border: solid;
+    border-radius: 50em;
+    border-color: thistle;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+    margin: 30px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.red {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 12em;
+
+}
+
+.red img {
+    max-width: 80%;
+    align-items: center;
+    border-style: solid;
+    border-radius: 5em;
+}
+
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fotos img {
+    float: left;
+    display: block;
+    width: 20%;
+    margin: 6%;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.tourlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tourlist img {
+    display: flex;
+    max-width: 30em;
+    margin: 2em;
+}
+
+.pic1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pic1 img {
+    float: left;
+    display: block;
+    width: 20%;
+    margin: 10%;
+    border-style: solid;
+    border-radius: 2.5em;
+}
+
+.pic1 ul {
+    text-decoration: none;
+    font-size: 70%;
+    font-weight: 800;
+    border-color: thistle;
+    border-style: solid;
+    border-radius: 5em;
+    background-color: thistle;
+    width: fit-content;
+    margin: 0;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    line-height: 2;
+}
+
+.illustration {
+    max-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.illustration img {
+    width: 65%;
+    margin-left: 15em;
+    border-style: solid;
+    border-radius: 5em;
+    align-items: center;
+}
+
+.verberg {
+    display: none;
+    text-align: center;
+    margin-left: 0.5em;
+}
+
+.tracks:hover .verberg {
+    display: block;
+}
+
+.tracks {
+    padding: 2em;
+    background-color: thistle;
+    border-style: solid;
+    border-radius: 10em;
+    border-color: thistle;
+    width: 15em;
+    margin-left: 37em;
+}
